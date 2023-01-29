@@ -7,8 +7,8 @@ import { data, images } from '../../constants';
 const SpecialMenu = () => (
   <div className='app__specialMenu flex__center section__padding' id='menu'>
     <div className="app__specialMenu-title">
-      <SubHeading title="Menu that fits you palatte" />
-      <h1 className='headtext__cormorant'>Today's Special</h1>
+      <SubHeading title="Sizga mos keladigan menyu" />
+      <h1 className='headtext__cormorant'>Maxsus Taom</h1>
     </div>
 
     <div className="app__specialMenu-menu">
@@ -33,7 +33,7 @@ const SpecialMenu = () => (
       </div>
     </div>
     <div style={{ marginTop: '15px' }}>
-      <button type='button' className="custom__button">View More</button>
+      <button type='button' className="custom__button">Barachasini ko'rish</button>
     </div>
   </div>
 );

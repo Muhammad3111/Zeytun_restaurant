@@ -25,7 +25,6 @@ const Intro = () => {
         type="video/mp4"
         controls={false}
         loop
-        muted
       />
       <div className="app__video-overlay flex__center">
         <div className="app__video-overlay_circle flex__center" onClick={handleVidoe}>
